@@ -1,13 +1,10 @@
-html {
-  color: #222;
-  font-size: 1em;
-  line-height: 1.4;
+html, body {
+  font-family: 'times new roman', cursive !important;
 }
 
 th, td {
-  padding: 8px;
   text-align: left;
-  border-bottom: 1px solid #ddd;
+  border-bottom: 10px;
 }
 
 td:hover {
@@ -100,18 +97,14 @@ textarea {
   margin-right: 0 !important;
 }
 
-html, body {
-  font-family: 'appple chancery', cursive !important;
-}
-
 .glyphicon, .fa {
-  color: #78281F;
+  color: cyan;
 }
 
 /* Landing page */
 
 header {
-  background-image: linear-gradient(rgba( 21, 67, 96, 0.3), rgba( 52, 153, 219, 0.4)), url('../images/nairobi-354282_1920.jpg');
+  background-image: linear-gradient(rgba( 21, 67, 96, 0.3), rgba( 52, 153, 219, 0.4)), url('../images/port03.jpeg');
   background-size: cover;
   background-position: center;
   height: 100vh;
@@ -154,8 +147,8 @@ header {
 }
 
 .navbar-scrolled {
-  background-color: #78281F !important;
-  background-image: url('../images/landing_bg.jpg');
+  background-color:  !important;
+  background-image: url('../images/port4.gif');
   transition:0.4s;
   box-shadow: 0 0 10px 2px;
 }
@@ -307,7 +300,8 @@ header {
 /* Latest projects */
 
 #projects {
-  background-color: #f8f8f8;
+  /* background-image: url('../images/port2.gif'); */
+  /* background-color: green; */
   padding: 3rem 0;
   border-bottom: 1px solid #e7e7e7;
   margin-top: 10rem;
@@ -353,11 +347,12 @@ h3 {
 /* Contact */
 
 #contact {
+  font-family: Bodoni;
+  background-image: url('../images/port5.gif');
   color: white;
-  background-color: #154360;
-  background-size: cover;
+  background-size: 100%;
   background-repeat: no-repeat;
-  padding: 3rem 0;
+  padding: 2rem 0;
 }
 
 #contact i, #contact .glyphicon, #contact img {
