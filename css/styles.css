@@ -1,5 +1,5 @@
-html, body {
-  font-family: 'times new roman', cursive !important;
+html,  {
+  font-family: 'Fertigo Pro', cursive !important;
 }
 
 th, td {
@@ -348,7 +348,7 @@ h3 {
 
 #contact {
   font-family: Bodoni;
-  background-image: url('../images/port5.gif');
+  background-color:  #1f1f2e;
   color: white;
   background-size: 100%;
   background-repeat: no-repeat;
